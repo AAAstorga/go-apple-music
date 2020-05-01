@@ -20,6 +20,7 @@ type ArtistRelationships struct {
 	Genres      *Genres      `json:"genres,omitempty"`
 	MusicVideos *MusicVideos `json:"music-videos,omitempty"`
 	Playlists   *Playlists   `json:"playlists,omitempty"`
+	Songs       *Songs       `json:"songs,omitempty"`
 }
 
 // Artist represents an artist of an album.
