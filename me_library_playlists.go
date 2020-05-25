@@ -9,6 +9,11 @@ import (
 type LibraryPlaylists struct {
 	Data []LibraryPlaylist `json:"data"`
 	Next string            `json:"next,omitempty"`
+	Meta LibraryMeta       `json:"meta"`
+}
+
+type LibraryMeta struct {
+	Total int `json:"total"`
 }
 
 type LibraryPlaylistTracks struct {
